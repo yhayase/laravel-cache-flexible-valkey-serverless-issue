@@ -1,0 +1,21 @@
+{
+    "name": "redis-cluster-test/fargate",
+    "description": "Fargate task to test Valkey Serverless",
+    "type": "project",
+    "require": {
+        "php": "^8.2",
+        "illuminate/cache": "^12.0",
+        "illuminate/config": "^12.0",
+        "illuminate/container": "^12.0",
+        "illuminate/redis": "^12.0",
+        "illuminate/support": "^12.0",
+        "predis/predis": "^2.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,23 @@
+# Composer
+/terraform/fargate/vendor/
+/terraform/fargate/composer.lock
+
+# Terraform
+/terraform/.terraform/
+/terraform/.terraform.lock.hcl
+/terraform/terraform.tfstate
+/terraform/terraform.tfstate.backup
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
